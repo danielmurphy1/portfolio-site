@@ -41,18 +41,27 @@ export const projectsData = [
     img: 'starwars.jpg',
     title: 'Star Wars API',
     info: 'This application creates a searchable table of Star Wars characters using the swapi.dev API. My goal in creating this application was to get more experience consuming data from an API and displaying it to the user. In creating the application I used JavaScript\'s async...await functionality to resolve the promises of each fetch request to the external API. The returned data is displayed to the user in a dynamic table created in React and styled with Bootstap.',
-    info2: 'In creating this application, I ran into a problem where some of the returned JSON data at an endpoint contained other endpoints as values. This was a headscratcher for me. Ultimately I was able to handle this problem by creating another fetch request and resolving the promise created by it, as well as the original promise from the inital data fetch. This project certainly caused me to grow as a developer and stretched my problem solving skills.',
+    info2: 'In creating this application, I ran into a problem where some of the returned JSON data at an endpoint contained other endpoints as values. This was a headscratcher for me. Ultimately I was able to handle this problem by creating another fetch request and resolving the promise created by it, as well as the original promise from the inital data fetch. In doing so, the PostMan API tool was critical to help me keep track of the layered endpoints. This project certainly caused me to grow as a developer and stretched my problem solving skills.',
     url: 'https://pacific-harbor-78489.herokuapp.com/',
     repo: 'https://github.com/danielmurphy1/star-wars-api/blob/master/src/App.js', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'brewery.jpg',
+    title: 'Brewery Database App',
+    info: 'The Brewery Database Application consumes data from the Open Brewery Database API and displays the data to the user. The user is able to search the database by city, state, or brewery name using a resolved fetch request with promises. The requested data is displayed to the user with React and the built-in Bootsrap card component. Using the Bootstrap card allowed me to really take advantage of React\'s ability to create re-usable components - each displayed card being the output of the JavaScript .map method.',
+    info2: 'I created this application to get more experience with React. At the point when I created this application I had already made a few with React, but each of the used Class components. So, when I went to create this application, I decided to challenge myself and use Functional components to hold state, thus forcing me to learn how to use React Hooks. I really enjoyed creating this application, and I am glad that I forced myself to grow as a developer and learn to use Hooks.',
+    url: 'https://mighty-stream-27218.herokuapp.com/',
+    repo: 'https://github.com/danielmurphy1/brewery-database-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'twitter.jpg',
+    title: 'Tweeter Grabberer',
+    info: 'This application is a full-stack application. The back-end uses Node and Express to serve the application, connect to the Twitter API, create a local API, and pass the consumed data to the front-end. In addition to serving the returned data to the front end, I used Axios POST for OAuth2 authentication, as the Twitter API grants only authenticated users access. The front-end utilizes React to display the data served to the local API by the back-end. The application allows the user to search for tweets from any public user of Twitter, search for tweets by topic, and to retrieve a random tweet from any one of my favorite five Twitter users. I used React Router to display the different pages for this application.',
+    info2: 'Creating this application was certainly a challenge. The Twitter API was the most complicated API that I had used to that point. I used the Twitter API documentation extensively in order to be able to consume the data that I needed. Once again, PostMan was an invaluable tool in being able to find the JSON data that I needed in order to display properly to the user. I really enjoyed all of the moving parts in creating this full-stack application; it certainly allowed me to learn and grow as a developer as well as stretch my problem solving skills.',
+    url: 'https://mighty-reaches-83026.herokuapp.com/',
+    repo: 'https://github.com/danielmurphy1/twitter-api-app', // if no repo, the button will not show up
   },
 ];
 
@@ -91,5 +100,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
