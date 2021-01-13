@@ -2,11 +2,8 @@ import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
-import PortfolioContext from '../../context/context';
 
 const Skills = () => {
-  //const { skills } = useContext(PortfolioContext);
-  //const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -52,7 +49,7 @@ const Skills = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
             <div className="skills-wrapper__info">
                 <ul className="skills-wrapper__info-text list list-group">Technologies/Tools
-                    <li className="list-item">PostMan</li>
+                    <li className="list-item">Postman</li>
                     <li className="list-item">Git/GitHub</li>
                     <li className="list-item">Heroku</li>
                     <li className="list-item">Netlify</li>

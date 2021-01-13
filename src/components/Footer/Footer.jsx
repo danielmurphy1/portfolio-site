@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Daniel Murphy - Created with Gatsby Templates
+          © {new Date().getFullYear()} - Daniel Murphy - Based on Gatsby Template
         </p>
 
         {isEnabled && <GithubButtons />}
