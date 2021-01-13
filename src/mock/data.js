@@ -43,7 +43,7 @@ export const projectsData = [
     info: 'This application creates a searchable table of Star Wars characters using the swapi.dev API. My goal in creating this application was to get more experience consuming data from an API and displaying it to the user. In creating the application I used JavaScript\'s async...await functionality to resolve the promises of each fetch request to the external API. The returned data is displayed to the user in a dynamic table created in React and styled with Bootstrap.',
     info2: 'In creating this application, I ran into a problem where some of the returned JSON data at an endpoint contained other endpoints as values. This was a headscratcher for me. Ultimately, I was able to handle this problem by creating another fetch request and resolving the promise created by it, as well as the original promise from the initial data fetch. In doing so, the Postman API tool was critical to help me keep track of the layered endpoints. This project certainly caused me to grow as a developer and stretched my problem-solving skills.',
     url: 'https://pacific-harbor-78489.herokuapp.com/',
-    repo: 'https://github.com/danielmurphy1/star-wars-api/blob/master/src/App.js', // if no repo, the button will not show up
+    repo: 'https://github.com/danielmurphy1/star-wars-api', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
