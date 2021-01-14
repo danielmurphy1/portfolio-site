@@ -41,6 +41,7 @@ const Skills = () => {
                 <ul className="skills-wrapper__info-text list list-group">Back-End
                     <li className="list-item">Node</li>
                     <li className="list-item">Express</li>
+                    <li className="list-item">RESTful APIs</li>
                 </ul>
               </div>
             </Fade>
