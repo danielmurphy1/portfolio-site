@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: 'My first venture into development/coding came during my senior year of undergrad when I took a Visual Basic course to fulfill a general education requirement. The basics I learned in that class helped me during my journey as a self-taught developer - learning more advanced languages and technologies such as HTML/CSS, JavaScript, Node, and React. As a dedicated life-long learner, each time that I sit down to work on a project or to study, I am excited knowing that I will learn something that I didn\'t know before.',
   paragraphThree: 'In addition to being a self-taught developer, I am also a veteran of the United States Navy. While serving in the Navy, I was an Avionics Technician. As an AT, I had the pleasure of maintaining (AKA repairing and troubleshooting) some of the most advanced avionics suites in the world. I was routinely called upon to troubleshoot and repair some of the most difficult discrepancies. In doing so, I stretched my critical thinking and problem-solving skills. I believe that experience has helped me to think as a developer when solving problems and squishing bugs in my code. Moreover, my experience in the Navy provided me with solid teamwork and leadership skills that make me a great addition to any team environment.',
   paragraphFour: 'Lastly, as you can see, I have a pretty sweet beard, of which I am quite proud.',
-  resume: 'https://drive.google.com/file/d/1Ml6iW-JEjYJavhdkY4m2jNOghrXCr0Lj/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1RUswDRlJAJ2LX4632KjWEG_8b8z2VNtM/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -35,6 +35,15 @@ export const projectsData = [
     info2: 'Creating this application, I ran into a few problems. First was getting the body pieces of the snake to follow the head. I solved this problem by moving only the head of the snake, and redrawing each segment taking the place of the segment that was in front of it. Debugging this application helped me to learn how the logic flows while the code runs.',
     url: 'https://danielmurphy1.github.io/SnakeGame/',
     repo: 'https://github.com/danielmurphy1/SnakeGame', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'stocks.jpg',
+    title: 'Fantasy Stock Trader',
+    info: 'A full-stack, fully functional CRUD application, Fantasy Stock Trader allows the user to take on the ups and downs of trading their favorite stocks without any of the risk. User and stock information is stored in a SQL databse. Node and Express handle the backend traffic of the internal API between the databse and the IEX Cloud API and then serves the information to the user through React. React Hooks allow the frontend client to be organized and purposeful, providing a great user experience.',
+    info2: 'This application allowed me to use the skills that I have taught myself through my journey as a self-taught developer to create an fun application with real-world use. In order to create this application I had to learn SQL and how to authenticate users. I enjoyed learning SQL and the problem solving that goes into some queries. This application was also the most difficult to deploy, and I ran into some hurdles doing so. Here the perseverence and critical thinking skills that I have developed as a self-taught developer were instrumental in my ability to come through the other end. ',
+    url: 'https://desolate-hollows-80945.herokuapp.com/',
+    repo: 'https://github.com/danielmurphy1/fantasystockapp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

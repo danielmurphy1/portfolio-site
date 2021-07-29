@@ -42,6 +42,7 @@ const Skills = () => {
                     <li className="list-item">Node</li>
                     <li className="list-item">Express</li>
                     <li className="list-item">RESTful APIs</li>
+                    <li className="list-item">SQL/PostgreSQL</li>
                 </ul>
               </div>
             </Fade>
@@ -54,6 +55,7 @@ const Skills = () => {
                     <li className="list-item">Git/GitHub</li>
                     <li className="list-item">Heroku</li>
                     <li className="list-item">Netlify</li>
+                    <li className="list-item">JSON Web Token</li>
                 </ul>
               </div>
             </Fade>
