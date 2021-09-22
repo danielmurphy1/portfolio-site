@@ -29,21 +29,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'snake.jpg',
-    title: 'Snake Game',
-    info: 'This is my take on the classic snake game that came pre-installed on many cellphones in the late 1990\'s and early 2000\'s (looking at you Nokia!). I created this project to learn how use the HTML canvas element and how to continually draw over the canvas using the setInterval() function to mimic animation. The application is created with HTML, basic CSS, and JavaScript without any libraries or frameworks. ' ,
-    info2: 'Creating this application, I ran into a few problems. First was getting the body pieces of the snake to follow the head. I solved this problem by moving only the head of the snake, and redrawing each segment taking the place of the segment that was in front of it. Debugging this application helped me to learn how the logic flows while the code runs.',
-    url: 'https://danielmurphy1.github.io/SnakeGame/',
-    repo: 'https://github.com/danielmurphy1/SnakeGame', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'stocks.jpg',
     title: 'Fantasy Stock Trader',
     info: 'A full-stack, fully functional CRUD application, Fantasy Stock Trader allows the user to take on the ups and downs of trading their favorite stocks without any of the risk. User and stock information is stored in a SQL databse. Node and Express handle the backend traffic of the internal API between the databse and the IEX Cloud API and then serves the information to the user through React. React Hooks allow the frontend client to be organized and purposeful, providing a great user experience.',
     info2: 'This application allowed me to use the skills that I have taught myself through my journey as a self-taught developer to create an fun application with real-world use. In order to create this application I had to learn SQL and how to authenticate users. I enjoyed learning SQL and the problem solving that goes into some queries. This application was also the most difficult to deploy, and I ran into some hurdles doing so. Here the perseverence and critical thinking skills that I have developed as a self-taught developer were instrumental in my ability to come through the other end. ',
     url: 'https://desolate-hollows-80945.herokuapp.com/',
     repo: 'https://github.com/danielmurphy1/fantasystockapp', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'snake.jpg',
+    title: 'Snake Game',
+    info: 'This is my take on the classic snake game that came pre-installed on many cellphones in the late 1990\'s and early 2000\'s (looking at you Nokia!). I created this project to learn how use the HTML canvas element and how to continually draw over the canvas using the setInterval() function to mimic animation. The application is created with HTML, basic CSS, and JavaScript without any libraries or frameworks. ' ,
+    info2: 'Creating this application, I ran into a few problems. First was getting the body pieces of the snake to follow the head. I solved this problem by moving only the head of the snake, and redrawing each segment taking the place of the segment that was in front of it. Debugging this application helped me to learn how the logic flows while the code runs.',
+    url: 'https://danielmurphy1.github.io/SnakeGame/',
+    repo: 'https://github.com/danielmurphy1/SnakeGame', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
