@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphThree:
     'In addition to being a self-taught developer, I am also a veteran of the United States Navy. While serving in the Navy, I was an Avionics Technician. As an AT, I had the pleasure of maintaining (AKA repairing and troubleshooting) some of the most advanced avionics suites in the world. I was routinely called upon to troubleshoot and repair some of the most difficult discrepancies. In doing so, I stretched my critical thinking and problem-solving skills. I believe that experience has helped me to think as a developer when solving problems and squishing bugs in my code. Moreover, my experience in the Navy provided me with solid teamwork and leadership skills that make me a great addition to any team environment.',
   paragraphFour: 'Lastly, as you can see, I have a pretty sweet beard, of which I am quite proud.',
-  resume: 'https://drive.google.com/file/d/1RUswDRlJAJ2LX4632KjWEG_8b8z2VNtM/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1mTbvcDHpnyw3ZQteXb18v1qMx92Z9UtA/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
