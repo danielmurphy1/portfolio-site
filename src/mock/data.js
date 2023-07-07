@@ -70,16 +70,16 @@ export const projectsData = [
     url: 'https://brewery-database-app.onrender.com',
     repo: 'https://github.com/danielmurphy1/brewery-database-app', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'twitter.jpg',
-    title: 'Tweet Grabber',
-    info: 'This application is a full-stack application. The back-end uses Node and Express to serve the application, connect to the Twitter API, create a local API, and pass the consumed data to the front-end. In addition to serving the returned data to the front end, I used Axios POST for OAuth2 authentication, as the Twitter API only grants access to authenticated users. The front-end utilizes React to display the data served to the local API by the back-end. The application allows the user to search for tweets from any public user of Twitter, search for tweets by topic, and to retrieve a random tweet from any one of my favorite five Twitter users. I used React Router to display the different pages for this application.',
-    info2:
-      'Creating this application was certainly a challenge. The Twitter API was the most complicated API that I had used to that point. I used the Twitter API documentation extensively to be able to consume the data that I needed. Once again, Postman was an invaluable tool in being able to find the JSON data that I needed to display properly to the user. I really enjoyed all the moving parts in creating this full-stack application; it certainly allowed me to learn and grow as a developer as well as stretch my problem-solving skills.',
-    url: 'https://mighty-reaches-83026.herokuapp.com/',
-    repo: 'https://github.com/danielmurphy1/twitter-api-app', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'twitter.jpg',
+  //   title: 'Tweet Grabber',
+  //   info: 'This application is a full-stack application. The back-end uses Node and Express to serve the application, connect to the Twitter API, create a local API, and pass the consumed data to the front-end. In addition to serving the returned data to the front end, I used Axios POST for OAuth2 authentication, as the Twitter API only grants access to authenticated users. The front-end utilizes React to display the data served to the local API by the back-end. The application allows the user to search for tweets from any public user of Twitter, search for tweets by topic, and to retrieve a random tweet from any one of my favorite five Twitter users. I used React Router to display the different pages for this application.',
+  //   info2:
+  //     'Creating this application was certainly a challenge. The Twitter API was the most complicated API that I had used to that point. I used the Twitter API documentation extensively to be able to consume the data that I needed. Once again, Postman was an invaluable tool in being able to find the JSON data that I needed to display properly to the user. I really enjoyed all the moving parts in creating this full-stack application; it certainly allowed me to learn and grow as a developer as well as stretch my problem-solving skills.',
+  //   url: 'https://mighty-reaches-83026.herokuapp.com/',
+  //   repo: 'https://github.com/danielmurphy1/twitter-api-app', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
