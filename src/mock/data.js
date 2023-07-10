@@ -34,10 +34,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'stocks.jpg',
     title: 'Fantasy Stock Trader',
-    info: 'A full-stack, fully functional CRUD application, Fantasy Stock Trader allows the user to take on the ups and downs of trading their favorite stocks without any of the risk. User and stock information is stored in a SQL databse. Node and Express handle the backend traffic of the internal API between the databse and the IEX Cloud API and then serves the information to the user through React. React Hooks allow the frontend client to be organized and purposeful, providing a great user experience.',
+    info: 'A full-stack, fully functional CRUD application, Fantasy Stock Trader allows the user to take on the ups and downs of trading their favorite stocks without any of the risk. User and stock information is stored in a SQL databse. Node and Express handle the backend traffic of the internal API between the databse and the Twelve Data API and then serves the information to the user through React. React Hooks allow the frontend client to be organized and purposeful, providing a great user experience.',
     info2:
       'This application allowed me to use the skills that I have taught myself through my journey as a self-taught developer to create an fun application with real-world use. In order to create this application I had to learn SQL and how to authenticate users. I enjoyed learning SQL and the problem solving that goes into some queries. This application was also the most difficult to deploy, and I ran into some hurdles doing so. Here the perseverence and critical thinking skills that I have developed as a self-taught developer were instrumental in my ability to come through the other end. ',
-    url: 'https://desolate-hollows-80945.herokuapp.com/',
+    url: 'https://fantasy-stocks-app.onrender.com/',
     repo: 'https://github.com/danielmurphy1/fantasystockapp', // if no repo, the button will not show up
   },
   {
