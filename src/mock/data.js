@@ -68,7 +68,7 @@ export const projectsData = [
     title: 'Brewery Database App',
     info: "The Brewery Database Application consumes data from the Open Brewery Database API and displays the data to the user. The user can search the database by city, state, or brewery name using a resolved fetch request with promises. The requested data is displayed to the user with React and the built-in Bootstrap card component. Using the Bootstrap card allowed me to really take advantage of React's ability to create re-usable components - each displayed card being the output of the JavaScript .map method.",
     info2:
-      'I created this application to get more experience with React. At the point when I created this application, I had already made a few with React, but each of the used Class components. So, when I went to create this application, I decided to challenge myself and use Functional components to hold state, thus forcing me to learn how to use React Hooks. I really enjoyed creating this application, and I am glad that I forced myself to grow as a developer and learn to use Hooks.',
+      'I created this application to get more experience with React. At the point when I created this application, I had already made a few with React, but each of them used Class components. So, when I went to create this application, I decided to challenge myself and use Functional components to hold state, thus forcing me to learn how to use React Hooks. I really enjoyed creating this application, and I am glad that I forced myself to grow as a developer and learn to use Hooks.',
     url: 'https://brewery-database-app.onrender.com',
     repo: 'https://github.com/danielmurphy1/brewery-database-app', // if no repo, the button will not show up
   },
