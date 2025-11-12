@@ -28,7 +28,7 @@ const Skills = () => {
                 <ul className="skills-wrapper__info-text list list-group">
                   Front-End
                   <li className="list-item">HTML/CSS</li>
-                  <li className="list-item">JavaScript</li>
+                  <li className="list-item">JavaScript/TypeScript</li>
                   <li className="list-item">React</li>
                   <li className="list-item">Bootstrap</li>
                   <li className="list-item">Angular</li>
@@ -43,7 +43,7 @@ const Skills = () => {
                   Back-End
                   <li className="list-item">Node</li>
                   <li className="list-item">Express</li>
-                  <li className="list-item">C#</li>
+                  <li className="list-item">C#/.NET/ASP.NET</li>
                   <li className="list-item">RESTful APIs</li>
                   <li className="list-item">SQL/PostgreSQL</li>
                   <li className="list-item">MongoDB/NoSQL DBs</li>
