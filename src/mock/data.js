@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Dan Murphy.',
-  subtitle: 'I am a self-taught Software Engineer.',
+  subtitle: 'Software Engineer/Problem Solver.',
   cta: 'More About Dan',
 };
 
@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I became a software engineer due to my desire to continuously challenge myself and my dedication to being a life-long learner. I am not certain which I love more about this profession: the logical thinking, problem-solving thought process that comes with development or the ability to create solutions to real-world problems that can both help people or bring them joy. Regardless of which it is, I do love this career, and I am happy and proud to be a self-taught engineer. I work hard, I am dedicated, and I certainly follow-through.',
   paragraphThree:
-    'In addition to being an engineer, I am also a veteran of the United States Navy, having served as an Avionics Technician. As an Avionics Tech, I had the pleasure of maintaining (that is, repairing and troubleshooting) some of the most advanced avionics suites in the world. I was routinely called upon to troubleshoot and repair some of the most difficult discrepancies. In doing so, I stretched my critical thinking and problem-solving skills, which I believe make me a better developer. Moreover, my experience in the Navy provided me with solid teamwork and leadership skills that make me a great addition to any team environment.',
+    'In addition to being a software engineer, I am also a veteran of the United States Navy, having served as an Avionics Technician. As an Avionics Tech, I had the pleasure of maintaining (that is, repairing and troubleshooting) some of the most advanced avionics suites in the world. I was routinely called upon to troubleshoot and repair some of the most difficult discrepancies. In doing so, I stretched my critical thinking and problem-solving skills, which I believe make me a better developer. Moreover, my experience in the Navy provided me with solid teamwork and leadership skills that make me a great addition to any team environment.',
   paragraphFour: 'Lastly, as you can see, I have a pretty sweet beard, of which I am quite proud.',
   resume: 'https://drive.google.com/file/d/14No2QhMWkW1aKuex0Sc_bySxJd16_jm9/view?usp=drive_link', // if no resume, the button will not show up
 };
@@ -46,7 +46,7 @@ export const projectsData = [
     title: 'Fantasy Stock Trader',
     info: 'A full-stack, fully functional CRUD application, Fantasy Stock Trader allows the user to take on the ups and downs of trading their favorite stocks without any of the risk. User and stock information is stored in a SQL database. Node and Express handle the backend traffic of the internal API between the database and the Twelve Data API and then serve the information to the user through React. React Hooks allow the frontend client to be organized and purposeful, providing a great user experience.',
     info2:
-      'This application allowed me to use the skills that I have gained through my journey as a self-taught engineer to create a fun application with real-world use. In order to create this application I had to learn SQL and how to authenticate users. I enjoyed learning SQL and the problem solving that goes into some queries. This application was also the most difficult to deploy, and I ran into some hurdles doing so. Here the perseverance and critical thinking skills that I have developed as a self-taught engineer were instrumental in my ability to come through the other end. ',
+      'This application allowed me to use the skills that I have gained through my journey as a self-taught engineer to create a fun application with real-world use. In order to create this application I had to learn SQL and how to authenticate users. I enjoyed learning SQL and the problem solving that goes into some queries. This application was also the most difficult to deploy, and I ran into some hurdles doing so. Here the perseverance and critical thinking skills that I have developed were instrumental in my ability to come through the other end. ',
     url: 'https://fantasy-stocks-app.onrender.com/',
     repo: 'https://github.com/danielmurphy1/fantasystockapp', // if no repo, the button will not show up
   },
